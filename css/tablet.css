@@ -1,0 +1,19 @@
+.header--title{
+    display: flex;
+}
+.header--title img{
+    width: 50px;
+}
+.header--title p{
+    padding-top: 40px;
+    font-size: 1.4rem;
+}
+.header--menu{
+    display: none;
+}
+.header-icons{
+    padding-right: 20px;
+    padding-top: 30px;
+    display: flex;
+    list-style-type: none;
+}
