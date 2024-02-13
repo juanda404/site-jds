@@ -20,14 +20,14 @@ header{
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 100px;
     min-width: 320px;
 }
 
 .header-icons{
-    display: none;
+    display: flex;
     list-style-type: none;
 }
 .header--menu{
@@ -65,67 +65,67 @@ header{
     color: white;
 }
 
-/*Main of web*/
-main{
-    display: flex;
-    flex-direction: column;
+.header-icons{
+    display: none;
+    list-style-type: none;
 }
-.seccions{
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/*Title*/
-.info--person h1{
+
+/*MENU PRINCIPAL*/
+section .title h1{
     color: white;
     text-align: center;
     font-size: 4rem;
 }
-/*Information personal*/
-.info--person p{
+section .title p{
     color: white;
     text-align: center;
     font-size: 1.6rem;
     margin-bottom: 30px;
     margin-top: 30px;
+}
 
-}
-/*Soft Skills*/
-.skill{
-    display: none;
-}
-/*Container and images */
-.container-imag{
-    min-width: 200px;
-    max-width: 500px;
-    height: auto;
-}
-.container-imag img{
-    width: 275px;
-    border-radius: 10%;
-}
-/*Seccion hard skills*/
-.container-skill-hard{
+.Information{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 80%;
+    align-items: center;
+    padding: 21px;
 }
-.skill-hard{
-    padding: 5px;
+.imagen-information img{
+    border-radius: 40px;
+    width: 300px;
+}
+.descrpcion-information{
+    margin-top: 20px;
+}
+.Information .descrpcion-information{
+    display: flex;
+    flex-direction: column;
+}
+.Information .descrpcion-information h3{
     color: white;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.Information .descrpcion-information p{
+    color: white;
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.descrpcion-information ul{
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+    display: block;
+    font-size: 1.2rem;
+    width: 372px;
+}
 
-}
-.skill-hard h3{
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin-bottom: 5px;
-}
-.skill-hard p{
-    font-size: 1.6rem;
-} 
+
+
+
+
+
 /*Seccion contacts*/
 .contacts{
     height: 267px;
@@ -140,7 +140,7 @@ main{
     margin-bottom: 60px;
 }
 /*boton enviar contactarme*/
-.seccions .contacts a{
+section .contacts a{
     color: white;
     text-align: center;
     font-size: 1.6rem;
@@ -153,18 +153,6 @@ main{
     box-shadow: 2px 4px 10px skyblue;
     text-decoration: none;
 }
-/*footer
-.pie{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.pie p{
-    color: white;
-    font-size: 1.5rem;
-}
-*/
 footer{
     display: flex;
     flex-direction: column;

@@ -43,13 +43,13 @@
 
 .info--person h1{
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 6rem;
 }
 /*Information personal*/
 .info--person p{
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -59,10 +59,17 @@
 .seccions .info--person{
     width: 50%;
 }
-.skill{
-    display: block;
+
+.container-imag img{
+    width: 500px;
+    border-radius: 10%;
+}
+
+
+.skill{    display: block;
     text-align: center;
     padding-top: 10px;
+
 }
 .skill button{
     background-color: #002069;
@@ -72,6 +79,13 @@
     border-radius: 20px;
     border: none;
     color: white;
+}
+
+.skill-hard{
+    padding: 60px;
+    color: white;
+    margin-bottom: 10px;
+
 }
 
 .container-skill-hard{
@@ -101,4 +115,14 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     width:40%;
+}
+
+/*Estilos para about*/
+.Information .descrpcion-information p,.Information .descrpcion-information ul{
+    width: 1024px;
+    font-size: 1.8rem;
+}
+.Information .descrpcion-information H3{
+    width: 200px;
+    font-size: 2rem;
 }

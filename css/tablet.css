@@ -1,3 +1,13 @@
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    min-width: 320px;
+  }
+
 .header--title{
     display: flex;
 }
@@ -8,12 +18,42 @@
     padding-top: 40px;
     font-size: 1.4rem;
 }
-.header--menu{
-    display: none;
-}
+
 .header-icons{
     padding-right: 20px;
     padding-top: 30px;
     display: flex;
     list-style-type: none;
 }
+.Information .descrpcion-information{
+    display: flex;
+    flex-direction: row;
+}
+
+.Information .descrpcion-information p,.Information .descrpcion-information ul{
+    width: 501px;
+    font-size: 1.8rem;
+}
+.Information .descrpcion-information H3{
+    width: 200px;
+    font-size: 2rem;
+}
+.imagen-information img {
+    border-radius: 40px;
+    width: 705px;
+  }
+  /* paginas work and about*/
+  section .title h1 {
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+  }
+  section .title p {
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+
