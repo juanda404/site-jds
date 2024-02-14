@@ -66,19 +66,22 @@
 }
 
 
-.skill{    display: block;
+.skill{   
+    
+    display: block;
     text-align: center;
     padding-top: 10px;
 
 }
-.skill button{
-    background-color: #002069;
-    height: 40px;
-    width: 120px;
-    font-size: 1.6rem;
+ .skill a {
+    background-color: #01194e;
+    font-size: 3.6rem;
     border-radius: 20px;
-    border: none;
+    text-decoration: none;
     color: white;
+    padding: 16px;
+  
+
 }
 
 .skill-hard{
